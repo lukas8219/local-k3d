@@ -1,0 +1,7 @@
+kind: Service
+apiVersion: v1
+metadata:
+ name: host
+spec:
+ type: ExternalName
+ externalName: host.k3d.internal
