@@ -1,6 +1,10 @@
 # local-k3d
 Local K8s Environment using K3d
 
+# How to configure access?
+
+in `grafana.yaml` change the configMap `password` and `user` to your choice
+
 # Using make
 run `make` in bash and you are good
 
