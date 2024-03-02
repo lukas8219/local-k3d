@@ -1,6 +1,11 @@
 # local-k3d
 Local K8s Environment using K3d
 
+# Requirements
+- Install `kustomize` via `brew install kustomize`
+- Have `kubectl` installed `brew install kubectl`
+- Install k3d https://k3d.io/v5.4.6/#installation
+
 # How to configure access?
 
 in `grafana.yaml` change the configMap `password` and `user` to your choice
