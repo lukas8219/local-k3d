@@ -21,6 +21,7 @@ data:
         static_configs:
           - targets: ['host-service-bridge:4000']
       - job_name: 'application_mr_metrics'
+        static_configs:
           - targets: ['host-service-bridge:5000']
 ---
 apiVersion: apps/v1
